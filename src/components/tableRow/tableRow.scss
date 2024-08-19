@@ -1,0 +1,23 @@
+.edit-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 0.875rem;
+    margin-left: 5px;
+    padding: 0;
+  }
+  
+  td {
+    position: relative;
+  }
+  
+  td:hover .edit-button {
+    display: inline;
+  }
+  
+  .edit-button {
+    display: none;
+  }
+  
